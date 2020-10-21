@@ -5,7 +5,7 @@ public class Ejercicio1 {
     int suma = x + y;
     int resta = y - x;
     int multiplicacion = y * x;
-    int division = y / x;
+    double division = (double) y / (double) x;
     System.out.println("El resultado de la suma es: " + suma);
     System.out.println("El resultado de la resta es: " + resta);
     System.out.println("El resultado de la multiplicación es " + multiplicacion);
