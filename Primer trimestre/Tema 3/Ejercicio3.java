@@ -5,7 +5,7 @@ public class Ejercicio3 {
     linea = System.console().readLine();
     double pesetas = Double.parseDouble(linea);
     double cambioAEuro = (pesetas * 6) / 1000;
-    System.out.println("El cambio de pesetas a euros es: " + cambioAEuro + "euros");
+    System.out.println("El cambio de pesetas a euros es: " + cambioAEuro + " euros");
   }
 }  
 
