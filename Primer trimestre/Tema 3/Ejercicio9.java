@@ -3,10 +3,10 @@ public class Ejercicio9 {
     String linea;
     System.out.print("Introduce el radio del cono: ");
     linea = System.console().readLine();
-    int radio = Integer.parseInt( linea );
+    double radio = Double.parseDouble(linea);
     System.out.print("A continuación introduce la altura del cono: ");
     linea = System.console().readLine();
-    int altura = Integer.parseInt( linea );
+    double altura = Double.parseDouble(linea);
     double vcono = (1.046 * radio * radio) * altura);
     System.out.println("El resultado de multiplicar los dos números es: " + vcono);
   }

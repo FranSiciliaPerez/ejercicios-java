@@ -3,15 +3,11 @@ public class Ejercicio1 {
     String linea;
     System.out.print("Introduce un número: ");
     linea = System.console().readLine();
-    int numero1;
-    numero1 = Integer.parseInt( linea );
-    
+    double numero1 = Double.parseDouble( linea );
     System.out.print("A continuación introduce otro número: ");
     linea = System.console().readLine();
-    int numero2;
-    numero2 = Integer.parseInt( linea );
-    int multiplicacion;
-    multiplicacion = (numero1 * numero2);
+    double numero2 = Double.parseDouble( linea );
+    double multiplicacion = (numero1 * numero2);
     System.out.println("El resultado de multiplicar los dos números es: " + multiplicacion);
   }
 }
