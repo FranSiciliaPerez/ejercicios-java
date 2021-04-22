@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Básicas</title>
+    <style>
+        ul{
+           list-style: none;
+        }
+        input {
+            display:block;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <form action="operacionesBasicas.jsp" method="GET">
+            <select name="operacionesbasicas">
+                <option value="suma">suma</option>
+                <option value="resta">resta</option>
+                <option value="multiplicacion">multiplicación</option>
+                <option value="division">división</option>
+            </select>
+            Introduce 2 numeros:
+            <input type="number" name="numero1" required="">
+            <input type="number" name="numero2" required="">
+            <input type="submit" value="Aceptar">
+        </form>
+    </body>
+</html>
